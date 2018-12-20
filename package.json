@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "faker": "^4.1.0"
+    "faker": "^4.1.0",
+    "lodash": "^4.17.11",
+    "shuffle-array": "^1.0.1"
   }
 }

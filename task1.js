@@ -9,7 +9,8 @@ class Person {
 }
 
 const checkAge = People => {
-  setInterval(() => console.log(People.filter(Person => Person.age <= 15)), 1000)
+  setInterval(() => console.log(People.filter(Person => Person.age <= 25))
+    , 1000)
 }
 
 const addPerson = People => {
@@ -26,7 +27,7 @@ const Armen = new Person('Armen', 15)
 const Ann = new Person('Ann', 0)
 const Areg = new Person('Areg', 5)
 const Arsen = new Person('Arsen', 12)
-const People = [Armen, Ann, Areg, Arsen]
-
+const People = [];
+People.push(Armen, Ann, Areg, Arsen);
 checkAge(People)
 addPerson(People)
