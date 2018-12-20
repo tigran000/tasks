@@ -59,7 +59,7 @@ function hitByG1() {
     [${g2.Name} x ${g2.Health}] with power ${g1.Power} `)
   g2.Health = Math.round((g2.Health - g1.Power) * 100) / 100
   g2.Speed = g2InitalSpeed * (g2.Health / g2InitalHealth)
-  if (g2.Health >= 15 && g1.Health <= 30) g1.Speed *= 3
+  if (g2.Health >= 15 && g2.Health <= 30) g1.Speed *= 3
   if (g2.Health <= 0) {
     console.log(`${g1.Name} Wins`)
     process.exit()
