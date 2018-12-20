@@ -9,7 +9,7 @@ class Person {
 }
 
 const checkAge = People => {
-  setInterval(() => console.log(People.filter(Person => Person.age <= 25))
+  setInterval(() => console.log(People.filter(Person => Person.age <= 40))
     , 1000)
 }
 
