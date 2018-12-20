@@ -27,7 +27,7 @@ const Armen = new Person('Armen', 15)
 const Ann = new Person('Ann', 0)
 const Areg = new Person('Areg', 5)
 const Arsen = new Person('Arsen', 12)
-const People = [];
-People.push(Armen, Ann, Areg, Arsen);
+const People = []
+People.push(Armen, Ann, Areg, Arsen)
 checkAge(People)
 addPerson(People)
